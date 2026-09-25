@@ -1,0 +1,2 @@
+case_id,contact_address,items,source_request_ids,reason,draft_subject,draft_body
+C009,case-009@example.invalid,fault_photo;site_access,R009;R025,Missing information remains unresolved and the last request is at least 48 hours old; no receipt signal was found.,Daybreak Repairs — information needed for your repair request,"DRY RUN — DO NOT SEND. Daybreak Repairs is missing: fault_photo, site_access. Please reply with the requested information when convenient."

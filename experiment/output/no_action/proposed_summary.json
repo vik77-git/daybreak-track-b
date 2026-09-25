@@ -1,0 +1,14 @@
+{
+  "mode": "proposed",
+  "snapshot_at": "2026-09-07T09:00:00+05:30",
+  "dry_run_only": true,
+  "unique_event_count": 124,
+  "source_event_rows": 128,
+  "decision_counts": {
+    "excluded": 25,
+    "uncertain": 2
+  },
+  "action_count": 0,
+  "actions": [],
+  "claim_scope": "The local experiment verifies deterministic reconciliation behavior against the supplied CSV snapshot; it does not verify any vendor API."
+}

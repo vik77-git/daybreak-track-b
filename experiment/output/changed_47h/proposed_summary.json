@@ -1,0 +1,25 @@
+{
+  "mode": "proposed",
+  "snapshot_at": "2026-09-07T09:00:00+05:30",
+  "dry_run_only": true,
+  "unique_event_count": 124,
+  "source_event_rows": 128,
+  "decision_counts": {
+    "excluded": 21,
+    "propose": 2,
+    "uncertain": 4
+  },
+  "action_count": 1,
+  "actions": [
+    {
+      "case_id": "C009",
+      "contact_address": "case-009@example.invalid",
+      "items": "fault_photo;site_access",
+      "source_request_ids": "R009;R025",
+      "reason": "Missing information remains unresolved and the last request is at least 48 hours old; no receipt signal was found.",
+      "draft_subject": "Daybreak Repairs \u2014 information needed for your repair request",
+      "draft_body": "DRY RUN \u2014 DO NOT SEND. Daybreak Repairs is missing: fault_photo, site_access. Please reply with the requested information when convenient."
+    }
+  ],
+  "claim_scope": "The local experiment verifies deterministic reconciliation behavior against the supplied CSV snapshot; it does not verify any vendor API."
+}
